@@ -2,7 +2,7 @@
   "main": "./lib/asar.js",
   "name": "asar",
   "description": "Creating atom-shell app packages",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "bin": {
     "asar": "bin/asar"
   },
@@ -27,7 +27,7 @@
     "clean": "grunt clean"
   },
   "dependencies": {
-    "chromium-pickle-js": "git+ssh://git@github.com/Paperspace/node-chromium-pickle.git",
+    "chromium-pickle": "git+ssh://git@github.com/Paperspace/node-chromium-pickle.git",
     "commander": "2.3.0",
     "cuint": "0.1.5",
     "minimatch": "2.0.4",
