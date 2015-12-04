@@ -1,7 +1,7 @@
 fs = require 'fs'
 path = require 'path'
 mkdirp = require 'mkdirp'
-pickle = require 'chromium-pickle-js'
+pickle = require 'chromium-pickle'
 
 Filesystem = require './filesystem'
 filesystemCache = {}
