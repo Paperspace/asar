@@ -27,7 +27,7 @@
     "clean": "grunt clean"
   },
   "dependencies": {
-    "chromium-pickle": "git+ssh://git@github.com/Paperspace/node-chromium-pickle.git",
+    "chromium-pickle": "^0.7.2",
     "commander": "2.3.0",
     "cuint": "0.1.5",
     "minimatch": "2.0.4",
